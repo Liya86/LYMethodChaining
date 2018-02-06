@@ -14,6 +14,28 @@
 		6AF10B5E20285E8300AB503F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF10B5C20285E8300AB503F /* LaunchScreen.storyboard */; };
 		6AF10B6120285E8300AB503F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B6020285E8300AB503F /* main.m */; };
 		6AF10B6B20285E8400AB503F /* LYMethodChainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B6A20285E8400AB503F /* LYMethodChainingTests.m */; };
+		6AF10BA820285ECB00AB503F /* UIImageView+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B7920285ECB00AB503F /* UIImageView+MethodChaining.m */; };
+		6AF10BA920285ECB00AB503F /* UIView+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B7B20285ECB00AB503F /* UIView+MethodChaining.m */; };
+		6AF10BAA20285ECB00AB503F /* UIButton+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B7C20285ECB00AB503F /* UIButton+MethodChaining.m */; };
+		6AF10BAB20285ECB00AB503F /* UITextView+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B7D20285ECB00AB503F /* UITextView+MethodChaining.m */; };
+		6AF10BAC20285ECB00AB503F /* UIControl+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B7F20285ECB00AB503F /* UIControl+MethodChaining.m */; };
+		6AF10BAD20285ECB00AB503F /* UIView+LYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B8320285ECB00AB503F /* UIView+LYFrame.m */; };
+		6AF10BAE20285ECB00AB503F /* UITableView+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B8520285ECB00AB503F /* UITableView+MethodChaining.m */; };
+		6AF10BAF20285ECB00AB503F /* UILabel+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B8920285ECB00AB503F /* UILabel+MethodChaining.m */; };
+		6AF10BB020285ECB00AB503F /* UIScrollView+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B8A20285ECB00AB503F /* UIScrollView+MethodChaining.m */; };
+		6AF10BB120285ECB00AB503F /* UITextField+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B8C20285ECB00AB503F /* UITextField+MethodChaining.m */; };
+		6AF10BB220285ECB00AB503F /* NSMutableDictionary+LYAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B8F20285ECB00AB503F /* NSMutableDictionary+LYAttributes.m */; };
+		6AF10BB320285ECB00AB503F /* NSMutableArray+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9020285ECB00AB503F /* NSMutableArray+MethodChaining.m */; };
+		6AF10BB420285ECB00AB503F /* NSMutableDictionary+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9120285ECB00AB503F /* NSMutableDictionary+MethodChaining.m */; };
+		6AF10BB520285ECB00AB503F /* NSMutableAttributedString+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9220285ECB00AB503F /* NSMutableAttributedString+MethodChaining.m */; };
+		6AF10BB620285ECB00AB503F /* NSMutableString+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9420285ECB00AB503F /* NSMutableString+MethodChaining.m */; };
+		6AF10BB720285ECB00AB503F /* NSString+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9520285ECB00AB503F /* NSString+MethodChaining.m */; };
+		6AF10BB820285ECB00AB503F /* NSAttributedString+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9620285ECB00AB503F /* NSAttributedString+MethodChaining.m */; };
+		6AF10BB920285ECB00AB503F /* NSArray+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9A20285ECB00AB503F /* NSArray+MethodChaining.m */; };
+		6AF10BBA20285ECB00AB503F /* NSMutableDictionary+LYFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9F20285ECB00AB503F /* NSMutableDictionary+LYFoundation.m */; };
+		6AF10BBB20285ECB00AB503F /* NSString+LYFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10BA020285ECB00AB503F /* NSString+LYFoundation.m */; };
+		6AF10BBC20285ECB00AB503F /* LYBasicTypeCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10BA120285ECB00AB503F /* LYBasicTypeCompare.m */; };
+		6AF10BBD20285ECB00AB503F /* NSObject+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10BA720285ECB00AB503F /* NSObject+MethodChaining.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +62,53 @@
 		6AF10B6620285E8400AB503F /* LYMethodChainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYMethodChainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF10B6A20285E8400AB503F /* LYMethodChainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMethodChainingTests.m; sourceTree = "<group>"; };
 		6AF10B6C20285E8400AB503F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF10B7620285ECB00AB503F /* LYMethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMethodChaining.h; sourceTree = "<group>"; };
+		6AF10B7720285ECB00AB503F /* NSObject+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B7920285ECB00AB503F /* UIImageView+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B7A20285ECB00AB503F /* UIView+LYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYFrame.h"; sourceTree = "<group>"; };
+		6AF10B7B20285ECB00AB503F /* UIView+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B7C20285ECB00AB503F /* UIButton+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B7D20285ECB00AB503F /* UITextView+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B7E20285ECB00AB503F /* UITableView+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B7F20285ECB00AB503F /* UIControl+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B8020285ECB00AB503F /* UIScrollView+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B8120285ECB00AB503F /* UILabel+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B8220285ECB00AB503F /* UITextField+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B8320285ECB00AB503F /* UIView+LYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYFrame.m"; sourceTree = "<group>"; };
+		6AF10B8420285ECB00AB503F /* UIImageView+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B8520285ECB00AB503F /* UITableView+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B8620285ECB00AB503F /* UITextView+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B8720285ECB00AB503F /* UIButton+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B8820285ECB00AB503F /* UIView+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B8920285ECB00AB503F /* UILabel+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B8A20285ECB00AB503F /* UIScrollView+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B8B20285ECB00AB503F /* UIControl+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B8C20285ECB00AB503F /* UITextField+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B8D20285ECB00AB503F /* LYSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSingleton.h; sourceTree = "<group>"; };
+		6AF10B8F20285ECB00AB503F /* NSMutableDictionary+LYAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LYAttributes.m"; sourceTree = "<group>"; };
+		6AF10B9020285ECB00AB503F /* NSMutableArray+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B9120285ECB00AB503F /* NSMutableDictionary+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B9220285ECB00AB503F /* NSMutableAttributedString+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B9320285ECB00AB503F /* NSArray+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B9420285ECB00AB503F /* NSMutableString+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B9520285ECB00AB503F /* NSString+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B9620285ECB00AB503F /* NSAttributedString+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B9720285ECB00AB503F /* NSMutableDictionary+LYAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LYAttributes.h"; sourceTree = "<group>"; };
+		6AF10B9820285ECB00AB503F /* NSMutableArray+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B9920285ECB00AB503F /* NSMutableString+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B9A20285ECB00AB503F /* NSArray+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MethodChaining.m"; sourceTree = "<group>"; };
+		6AF10B9B20285ECB00AB503F /* NSMutableAttributedString+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B9C20285ECB00AB503F /* NSMutableDictionary+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B9D20285ECB00AB503F /* NSAttributedString+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10B9F20285ECB00AB503F /* NSMutableDictionary+LYFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LYFoundation.m"; sourceTree = "<group>"; };
+		6AF10BA020285ECB00AB503F /* NSString+LYFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYFoundation.m"; sourceTree = "<group>"; };
+		6AF10BA120285ECB00AB503F /* LYBasicTypeCompare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBasicTypeCompare.m; sourceTree = "<group>"; };
+		6AF10BA220285ECB00AB503F /* NSString+LYFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LYFoundation.h"; sourceTree = "<group>"; };
+		6AF10BA320285ECB00AB503F /* NSMutableDictionary+LYFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LYFoundation.h"; sourceTree = "<group>"; };
+		6AF10BA420285ECB00AB503F /* LYBasicTypeCompare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBasicTypeCompare.h; sourceTree = "<group>"; };
+		6AF10BA520285ECB00AB503F /* NSString+MethodChaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MethodChaining.h"; sourceTree = "<group>"; };
+		6AF10BA620285ECB00AB503F /* LYMethodChainingMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMethodChainingMacros.h; sourceTree = "<group>"; };
+		6AF10BA720285ECB00AB503F /* NSObject+MethodChaining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodChaining.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +132,7 @@
 		6AF10B4520285E8300AB503F = {
 			isa = PBXGroup;
 			children = (
+				6AF10B7520285ECB00AB503F /* Source */,
 				6AF10B5020285E8300AB503F /* LYMethodChaining */,
 				6AF10B6920285E8400AB503F /* LYMethodChainingTests */,
 				6AF10B4F20285E8300AB503F /* Products */,
@@ -101,6 +171,84 @@
 				6AF10B6C20285E8400AB503F /* Info.plist */,
 			);
 			path = LYMethodChainingTests;
+			sourceTree = "<group>";
+		};
+		6AF10B7520285ECB00AB503F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6AF10B8D20285ECB00AB503F /* LYSingleton.h */,
+				6AF10B7620285ECB00AB503F /* LYMethodChaining.h */,
+				6AF10BA620285ECB00AB503F /* LYMethodChainingMacros.h */,
+				6AF10B7720285ECB00AB503F /* NSObject+MethodChaining.h */,
+				6AF10BA720285ECB00AB503F /* NSObject+MethodChaining.m */,
+				6AF10B7820285ECB00AB503F /* UIKit */,
+				6AF10B8E20285ECB00AB503F /* Foundation */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6AF10B7820285ECB00AB503F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6AF10B7A20285ECB00AB503F /* UIView+LYFrame.h */,
+				6AF10B8320285ECB00AB503F /* UIView+LYFrame.m */,
+				6AF10B8820285ECB00AB503F /* UIView+MethodChaining.h */,
+				6AF10B7B20285ECB00AB503F /* UIView+MethodChaining.m */,
+				6AF10B8720285ECB00AB503F /* UIButton+MethodChaining.h */,
+				6AF10B7C20285ECB00AB503F /* UIButton+MethodChaining.m */,
+				6AF10B8220285ECB00AB503F /* UITextField+MethodChaining.h */,
+				6AF10B8C20285ECB00AB503F /* UITextField+MethodChaining.m */,
+				6AF10B8620285ECB00AB503F /* UITextView+MethodChaining.h */,
+				6AF10B7D20285ECB00AB503F /* UITextView+MethodChaining.m */,
+				6AF10B7E20285ECB00AB503F /* UITableView+MethodChaining.h */,
+				6AF10B8520285ECB00AB503F /* UITableView+MethodChaining.m */,
+				6AF10B8020285ECB00AB503F /* UIScrollView+MethodChaining.h */,
+				6AF10B8A20285ECB00AB503F /* UIScrollView+MethodChaining.m */,
+				6AF10B8420285ECB00AB503F /* UIImageView+MethodChaining.h */,
+				6AF10B7920285ECB00AB503F /* UIImageView+MethodChaining.m */,
+				6AF10B8120285ECB00AB503F /* UILabel+MethodChaining.h */,
+				6AF10B8920285ECB00AB503F /* UILabel+MethodChaining.m */,
+				6AF10B8B20285ECB00AB503F /* UIControl+MethodChaining.h */,
+				6AF10B7F20285ECB00AB503F /* UIControl+MethodChaining.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6AF10B8E20285ECB00AB503F /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				6AF10B9820285ECB00AB503F /* NSMutableArray+MethodChaining.h */,
+				6AF10B9020285ECB00AB503F /* NSMutableArray+MethodChaining.m */,
+				6AF10B9720285ECB00AB503F /* NSMutableDictionary+LYAttributes.h */,
+				6AF10B8F20285ECB00AB503F /* NSMutableDictionary+LYAttributes.m */,
+				6AF10B9B20285ECB00AB503F /* NSMutableAttributedString+MethodChaining.h */,
+				6AF10B9220285ECB00AB503F /* NSMutableAttributedString+MethodChaining.m */,
+				6AF10B9320285ECB00AB503F /* NSArray+MethodChaining.h */,
+				6AF10B9A20285ECB00AB503F /* NSArray+MethodChaining.m */,
+				6AF10B9920285ECB00AB503F /* NSMutableString+MethodChaining.h */,
+				6AF10B9420285ECB00AB503F /* NSMutableString+MethodChaining.m */,
+				6AF10BA520285ECB00AB503F /* NSString+MethodChaining.h */,
+				6AF10B9520285ECB00AB503F /* NSString+MethodChaining.m */,
+				6AF10B9D20285ECB00AB503F /* NSAttributedString+MethodChaining.h */,
+				6AF10B9620285ECB00AB503F /* NSAttributedString+MethodChaining.m */,
+				6AF10B9C20285ECB00AB503F /* NSMutableDictionary+MethodChaining.h */,
+				6AF10B9120285ECB00AB503F /* NSMutableDictionary+MethodChaining.m */,
+				6AF10B9E20285ECB00AB503F /* Tool */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		6AF10B9E20285ECB00AB503F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6AF10BA320285ECB00AB503F /* NSMutableDictionary+LYFoundation.h */,
+				6AF10B9F20285ECB00AB503F /* NSMutableDictionary+LYFoundation.m */,
+				6AF10BA220285ECB00AB503F /* NSString+LYFoundation.h */,
+				6AF10BA020285ECB00AB503F /* NSString+LYFoundation.m */,
+				6AF10BA420285ECB00AB503F /* LYBasicTypeCompare.h */,
+				6AF10BA120285ECB00AB503F /* LYBasicTypeCompare.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +353,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF10BA820285ECB00AB503F /* UIImageView+MethodChaining.m in Sources */,
+				6AF10BB220285ECB00AB503F /* NSMutableDictionary+LYAttributes.m in Sources */,
+				6AF10BB520285ECB00AB503F /* NSMutableAttributedString+MethodChaining.m in Sources */,
+				6AF10BBB20285ECB00AB503F /* NSString+LYFoundation.m in Sources */,
+				6AF10BB820285ECB00AB503F /* NSAttributedString+MethodChaining.m in Sources */,
+				6AF10BB020285ECB00AB503F /* UIScrollView+MethodChaining.m in Sources */,
+				6AF10BAC20285ECB00AB503F /* UIControl+MethodChaining.m in Sources */,
+				6AF10BBD20285ECB00AB503F /* NSObject+MethodChaining.m in Sources */,
+				6AF10BB720285ECB00AB503F /* NSString+MethodChaining.m in Sources */,
 				6AF10B5620285E8300AB503F /* ViewController.m in Sources */,
+				6AF10BAF20285ECB00AB503F /* UILabel+MethodChaining.m in Sources */,
+				6AF10BAD20285ECB00AB503F /* UIView+LYFrame.m in Sources */,
 				6AF10B6120285E8300AB503F /* main.m in Sources */,
+				6AF10BB320285ECB00AB503F /* NSMutableArray+MethodChaining.m in Sources */,
+				6AF10BB920285ECB00AB503F /* NSArray+MethodChaining.m in Sources */,
+				6AF10BAE20285ECB00AB503F /* UITableView+MethodChaining.m in Sources */,
+				6AF10BBC20285ECB00AB503F /* LYBasicTypeCompare.m in Sources */,
+				6AF10BAB20285ECB00AB503F /* UITextView+MethodChaining.m in Sources */,
+				6AF10BBA20285ECB00AB503F /* NSMutableDictionary+LYFoundation.m in Sources */,
+				6AF10BB620285ECB00AB503F /* NSMutableString+MethodChaining.m in Sources */,
+				6AF10BA920285ECB00AB503F /* UIView+MethodChaining.m in Sources */,
+				6AF10BB120285ECB00AB503F /* UITextField+MethodChaining.m in Sources */,
+				6AF10BB420285ECB00AB503F /* NSMutableDictionary+MethodChaining.m in Sources */,
 				6AF10B5320285E8300AB503F /* AppDelegate.m in Sources */,
+				6AF10BAA20285ECB00AB503F /* UIButton+MethodChaining.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
