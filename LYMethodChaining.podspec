@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LYMethodChaining"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "常用类method chaining"
 
   # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.author       = "Liya86"
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/Liya86/LYMethodChaining.git", :tag => "1.0.0" }
-  s.source_files = "Source/*"
+  s.source_files = "Source/**/*.{h,m}"
   s.frameworks   = "Foundation", "UIKit"
   s.requires_arc = true
 
