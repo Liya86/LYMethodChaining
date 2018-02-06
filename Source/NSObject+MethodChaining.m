@@ -15,7 +15,7 @@
 - (mc_chainingBlock)mc_chaining {
     MC_Weakify(self);
     return ^id(NSString *keypath, id value) {
-        if (keypath) {
+        MC_Strongify(self) if (keypath) {
             NSArray *keys = [keypath componentsSeparatedByString:@"."];
             NSString *lastKey = nil;
             Class lastClass = [self class];
@@ -42,13 +42,10 @@
                     [self setValue:value forKeyPath:keypath];
                 } else if (lastClass) {
                     [self setNilValueForKey:keypath];
-                } else if (DEBUG) {
                 }
-            } else if (DEBUG) {
             }
-        } else if (DEBUG) {
         }
-        MC_Strongify(self) return self;
+        return self;
     };
 }
 
