@@ -43,6 +43,24 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) UIView *(^mc_addGestureRecognizer)(UIGestureRecognizer *);
 @property (nonatomic, copy, readonly) UIView *(^mc_removeGestureRecognizer)(UIGestureRecognizer *);
 @property (nonatomic, copy, readonly) UIView *(^mc_removeAllGestureRecognizers)(void);
+@property (nonatomic, copy, readonly) UIView *(^mc_tintColor)(UIColor *);
+@property (nonatomic, copy, readonly) UIView *(^mc_tintAdjustmentMode)(UIViewTintAdjustmentMode);
+@property (nonatomic, copy, readonly) UIView *(^mc_tintColorDidChange)(void);
+@property (nonatomic, copy, readonly) UIView *(^mc_addSubView)(UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_insertSubView)(UIView *, NSInteger);
+@property (nonatomic, copy, readonly) UIView *(^mc_insertSubViewAboveSubview)(UIView *, UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_insertSubViewBelowSubview)(UIView *, UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_removeAllSubViews)(void);
+@property (nonatomic, copy, readonly) UIView *(^mc_removeSubView)(UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_bringSubviewToFront)(UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_sendSubviewToBack)(UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_removeFromSuperview)(void);
+@property (nonatomic, copy, readonly) UIView *(^mc_addToSuperView)(UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_insertToSuperView)(UIView *, NSInteger);
+@property (nonatomic, copy, readonly) UIView *(^mc_insertToSuperViewAboveSubview)(UIView *, UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_insertToSuperViewBelowSubview)(UIView *, UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_sendToSuperViewBack)(UIView *);
+@property (nonatomic, copy, readonly) UIView *(^mc_bringToSuperViewFront)(UIView *);
 @end
 NS_ASSUME_NONNULL_END
 
