@@ -6,6 +6,7 @@
 //  Copyright © 2018年 Liya. All rights reserved.
 //
 
+#import "LYMethodChainingForFoundation.h"
 #import <XCTest/XCTest.h>
 
 @interface LYMethodChainingTests : XCTestCase

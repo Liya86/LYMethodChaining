@@ -8,5 +8,9 @@
 
 #ifndef LYMethodChaining_h
 #define LYMethodChaining_h
-
+#import "LYSingleton.h"
+#import "LYMethodChainingMacros.h"
+#import "NSObject+MethodChaining.h"
+#import "LYMethodChainingForUIKit.h"
+#import "LYMethodChainingForFoundation.h"
 #endif /* LYMethodChaining_h */

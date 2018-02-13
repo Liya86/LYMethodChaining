@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AD61EB02031915300BBB49A /* NSObject+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10BA720285ECB00AB503F /* NSObject+MethodChaining.m */; };
+		6AD61EB12031915300BBB49A /* NSMutableArray+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9020285ECB00AB503F /* NSMutableArray+MethodChaining.m */; };
+		6AD61EB22031915300BBB49A /* NSMutableDictionary+LYAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B8F20285ECB00AB503F /* NSMutableDictionary+LYAttributes.m */; };
+		6AD61EB32031915300BBB49A /* NSMutableAttributedString+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9220285ECB00AB503F /* NSMutableAttributedString+MethodChaining.m */; };
+		6AD61EB42031915300BBB49A /* NSArray+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9A20285ECB00AB503F /* NSArray+MethodChaining.m */; };
+		6AD61EB52031915300BBB49A /* NSMutableString+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9420285ECB00AB503F /* NSMutableString+MethodChaining.m */; };
+		6AD61EB62031915300BBB49A /* NSString+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9520285ECB00AB503F /* NSString+MethodChaining.m */; };
+		6AD61EB72031915300BBB49A /* NSAttributedString+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9620285ECB00AB503F /* NSAttributedString+MethodChaining.m */; };
+		6AD61EB82031915300BBB49A /* NSMutableDictionary+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9120285ECB00AB503F /* NSMutableDictionary+MethodChaining.m */; };
+		6AD61EB92031915300BBB49A /* NSMutableDictionary+LYFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B9F20285ECB00AB503F /* NSMutableDictionary+LYFoundation.m */; };
+		6AD61EBA2031915300BBB49A /* NSString+LYFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10BA020285ECB00AB503F /* NSString+LYFoundation.m */; };
+		6AD61EBB2031915300BBB49A /* LYBasicTypeCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10BA120285ECB00AB503F /* LYBasicTypeCompare.m */; };
+		6AD61EBC2031916A00BBB49A /* LYMethodChainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B6A20285E8400AB503F /* LYMethodChainingTests.m */; };
+		6AD61EBF20326D8700BBB49A /* LYAssertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD61EBE20326D8700BBB49A /* LYAssertHandler.m */; };
+		6AD61EC020326D8700BBB49A /* LYAssertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD61EBE20326D8700BBB49A /* LYAssertHandler.m */; };
 		6AF10B5320285E8300AB503F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B5220285E8300AB503F /* AppDelegate.m */; };
 		6AF10B5620285E8300AB503F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B5520285E8300AB503F /* ViewController.m */; };
 		6AF10B5920285E8300AB503F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF10B5720285E8300AB503F /* Main.storyboard */; };
 		6AF10B5B20285E8300AB503F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF10B5A20285E8300AB503F /* Assets.xcassets */; };
 		6AF10B5E20285E8300AB503F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF10B5C20285E8300AB503F /* LaunchScreen.storyboard */; };
 		6AF10B6120285E8300AB503F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B6020285E8300AB503F /* main.m */; };
-		6AF10B6B20285E8400AB503F /* LYMethodChainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B6A20285E8400AB503F /* LYMethodChainingTests.m */; };
 		6AF10BA820285ECB00AB503F /* UIImageView+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B7920285ECB00AB503F /* UIImageView+MethodChaining.m */; };
 		6AF10BA920285ECB00AB503F /* UIView+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B7B20285ECB00AB503F /* UIView+MethodChaining.m */; };
 		6AF10BAA20285ECB00AB503F /* UIButton+MethodChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF10B7C20285ECB00AB503F /* UIButton+MethodChaining.m */; };
@@ -49,6 +63,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AD61EAD20318EB200BBB49A /* LYMethodChainingForUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMethodChainingForUIKit.h; sourceTree = "<group>"; };
+		6AD61EAE20318FC000BBB49A /* LYMethodChainingForFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMethodChainingForFoundation.h; sourceTree = "<group>"; };
+		6AD61EBD20326D8700BBB49A /* LYAssertHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAssertHandler.h; sourceTree = "<group>"; };
+		6AD61EBE20326D8700BBB49A /* LYAssertHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAssertHandler.m; sourceTree = "<group>"; };
 		6AF10B4E20285E8300AB503F /* LYMethodChaining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYMethodChaining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF10B5120285E8300AB503F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6AF10B5220285E8300AB503F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -210,6 +228,7 @@
 				6AF10B8920285ECB00AB503F /* UILabel+MethodChaining.m */,
 				6AF10B8B20285ECB00AB503F /* UIControl+MethodChaining.h */,
 				6AF10B7F20285ECB00AB503F /* UIControl+MethodChaining.m */,
+				6AD61EAD20318EB200BBB49A /* LYMethodChainingForUIKit.h */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -217,6 +236,8 @@
 		6AF10B8E20285ECB00AB503F /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				6AD61EBD20326D8700BBB49A /* LYAssertHandler.h */,
+				6AD61EBE20326D8700BBB49A /* LYAssertHandler.m */,
 				6AF10B9820285ECB00AB503F /* NSMutableArray+MethodChaining.h */,
 				6AF10B9020285ECB00AB503F /* NSMutableArray+MethodChaining.m */,
 				6AF10B9720285ECB00AB503F /* NSMutableDictionary+LYAttributes.h */,
@@ -233,6 +254,7 @@
 				6AF10B9620285ECB00AB503F /* NSAttributedString+MethodChaining.m */,
 				6AF10B9C20285ECB00AB503F /* NSMutableDictionary+MethodChaining.h */,
 				6AF10B9120285ECB00AB503F /* NSMutableDictionary+MethodChaining.m */,
+				6AD61EAE20318FC000BBB49A /* LYMethodChainingForFoundation.h */,
 				6AF10B9E20285ECB00AB503F /* Tool */,
 			);
 			path = Foundation;
@@ -378,6 +400,7 @@
 				6AF10BB420285ECB00AB503F /* NSMutableDictionary+MethodChaining.m in Sources */,
 				6AF10B5320285E8300AB503F /* AppDelegate.m in Sources */,
 				6AF10BAA20285ECB00AB503F /* UIButton+MethodChaining.m in Sources */,
+				6AD61EBF20326D8700BBB49A /* LYAssertHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +408,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AF10B6B20285E8400AB503F /* LYMethodChainingTests.m in Sources */,
+				6AD61EBC2031916A00BBB49A /* LYMethodChainingTests.m in Sources */,
+				6AD61EB02031915300BBB49A /* NSObject+MethodChaining.m in Sources */,
+				6AD61EB12031915300BBB49A /* NSMutableArray+MethodChaining.m in Sources */,
+				6AD61EB22031915300BBB49A /* NSMutableDictionary+LYAttributes.m in Sources */,
+				6AD61EB32031915300BBB49A /* NSMutableAttributedString+MethodChaining.m in Sources */,
+				6AD61EB42031915300BBB49A /* NSArray+MethodChaining.m in Sources */,
+				6AD61EB52031915300BBB49A /* NSMutableString+MethodChaining.m in Sources */,
+				6AD61EC020326D8700BBB49A /* LYAssertHandler.m in Sources */,
+				6AD61EB62031915300BBB49A /* NSString+MethodChaining.m in Sources */,
+				6AD61EB72031915300BBB49A /* NSAttributedString+MethodChaining.m in Sources */,
+				6AD61EB82031915300BBB49A /* NSMutableDictionary+MethodChaining.m in Sources */,
+				6AD61EB92031915300BBB49A /* NSMutableDictionary+LYFoundation.m in Sources */,
+				6AD61EBA2031915300BBB49A /* NSString+LYFoundation.m in Sources */,
+				6AD61EBB2031915300BBB49A /* LYBasicTypeCompare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
