@@ -22,9 +22,7 @@
 - (NSMutableArray * (^)(id, NSUInteger))mc_addObjectAtIndex {
     MC_Weakify(self) return ^NSMutableArray *(id anObject, NSUInteger index) {
         MC_Strongify(self) if (anObject) {
-            if (index >= self.count) {
-                [self addObject:anObject];
-            } else {
+            if (index < self.count) {
                 [self insertObject:anObject atIndex:index];
             }
         }
@@ -51,10 +49,7 @@
 
 - (NSMutableArray * (^)(NSUInteger))mc_removeObjectAtIndex {
     MC_Weakify(self) return ^NSMutableArray *(NSUInteger index) {
-        MC_Strongify(self) if (index >= self.count) {
-            [self removeLastObject];
-        }
-        else {
+        MC_Strongify(self) if (index < self.count) {
             [self removeObjectAtIndex:index];
         }
         return self;
@@ -65,8 +60,6 @@
     MC_Weakify(self) return ^NSMutableArray *(NSUInteger index, id anObject) {
         MC_Strongify(self) if (anObject) {
             if (index < self.count) {
-                [self addObject:anObject];
-            } else {
                 [self replaceObjectAtIndex:index withObject:anObject];
             }
         }
@@ -111,13 +104,7 @@
 
 - (NSMutableArray * (^)(NSUInteger, NSUInteger))mc_exchangeObjectAtIndex {
     MC_Weakify(self) return ^NSMutableArray *(NSUInteger idx1, NSUInteger idx2) {
-        MC_Strongify(self) if (idx1 >= self.count) {
-            idx1 = self.count - 1;
-        }
-        if (idx2 >= self.count) {
-            idx2 = self.count - 1;
-        }
-        if (idx1 != idx2) {
+        MC_Strongify(self) if (idx1 != idx2 && idx1 < self.count && idx2 < self.count) {
             [self exchangeObjectAtIndex:idx1 withObjectAtIndex:idx2];
         }
         return self;
